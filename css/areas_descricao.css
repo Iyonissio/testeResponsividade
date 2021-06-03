@@ -1,0 +1,57 @@
+.descricao_areas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 150px;
+    margin-right: 150px;
+    gap: 40px;
+}
+
+.descricao_informacao{
+    display: flex;
+    flex-direction: column;
+}
+
+.descricao_informacao h1{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.descricao_titulo h1{
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #222C51;
+}
+
+.descricao_imagem img{
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
+}
+
+.descricao_imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginas_estabelecmentos span {
+   display: flex;
+   padding-left: 20px;
+   font-size: 24px;
+   float:left; 
+  margin-bottom: 35px;
+}
+
+.button_agendar a{
+    background-color: #f1a300;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    padding: 8px 10px 8px 10px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    
+}
